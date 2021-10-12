@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  justify-content: center; /*display flex y justify content es para alinear horizontalmente*/
+  margin-top: 10%;
+}
+
+body {
+  background-color: gray;
+}
+
+span {
+  cursor: pointer;
+  float: right;
+
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.3s;
+}
+
+span:hover {
+  transition: color 0.3s;
+  color: pink;
+  left: 90%;
+  top: 0;
+}
+
+span:hover ~ span {
+  color: pink;
+}
+
+
